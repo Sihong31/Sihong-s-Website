@@ -3,15 +3,20 @@
 	color: #D9D7DC;
 }
 
-h3 {
-  font-family: 'Poiret One';
+.navbar-title {
+  font-family: 'Bitter';
+  font-size: 28px;
+}
+
+.drawer-title {
+  font-family: 'Bitter';	
 }
 
 .navbar-link{
 	text-decoration: none;
 	color: #D9D7DC;
 	margin: 10px;
-	font-family: 'Poiret One';
+	font-family: 'Bitter';
 	font-size: 20px;
 }
 
@@ -32,6 +37,12 @@ h3 {
   color: white;
 }
 
+.drawer-link {
+	text-decoration: none;
+	color: #1D1E20;
+	font-family: 'Bitter';
+	font-size: 20px;
+}
 .mdl-mini-footer {
 	background-color: #1D1E20;
 }
