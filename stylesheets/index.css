@@ -3,6 +3,18 @@
 	color: #D9D7DC;
 }
 
+h3 {
+  font-family: 'Poiret One';
+}
+
+.navbar-link{
+	text-decoration: none;
+	color: #D9D7DC;
+	margin: 10px;
+	font-family: 'Poiret One';
+	font-size: 20px;
+}
+
 .material-icons {
 	color: #D9D7DC;
 }
