@@ -27,7 +27,9 @@
             <span><a class="navbar-link" href="#">Projects</a></span>
           </nav>
           <nav class="mdl-navigation mdl-layout--large-screen-only">
-            <span><a class="navbar-link" href="#">About Me</a></span>
+            <div data-popup-open="popup-1">
+              <a class="navbar-link"  href="#">About Me</a>
+            </div>
           </nav>
         </div>
       </header>
@@ -68,5 +70,17 @@
         </footer>
   	</div>
 	</div>
+
+	<div class="popup" data-popup="popup-1">
+	  
+	  <div class="popup-inner">
+	    <div class="about-me">
+	      <p>Hello this is a test</p>
+      </div>
+    
+	    <p><a data-popup-close="popup-1" href="#">Close</a></p>
+	    <a class="popup-close" data-popup-close="popup-1" href="x">x</a> 
+	  </div>
+	</div>    
 </body>
 </html>
