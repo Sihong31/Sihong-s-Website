@@ -1,8 +1,36 @@
+.mdl-layout__header-row {
+	background-color: #0236EA;
+	color: #D9D7DC;
+}
+
+.material-icons {
+	color: #D9D7DC;
+}
+
 .mdl-layout__content {
   background: url('../images/index_picture.jpg') center / cover;
+}
+
+.mdl-layout__header .mdl-layout__drawer-button {
+  background-color: #0236EA;
 }
 
 .layout-transparent .mdl-layout__header,
 .layout-transparent .mdl-layout__drawer-button {
   color: white;
+}
+
+.mdl-mini-footer {
+	background-color: #1D1E20;
+}
+
+.mdl-logo {
+	display: inline-block;
+	margin: 1px;
+	padding: 0;
+}
+
+.logo{
+	font-size: 30px;
+	color: #E2AA2F;
 }
