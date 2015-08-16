@@ -71,7 +71,7 @@
  
 .popup-inner {
     max-width:700px;
-    width:90%;
+    width:65%;
     padding:40px;
     position:absolute;
     top:50%;
@@ -82,7 +82,27 @@
     border-radius:3px;
     background:#fff;
 }
+
+
+.resume-div {
+  padding: 0;
+}
+
+.resume {
+	content: url(../images/resume.png);
+	max-width: 100%;
+	margin: 0 auto;
+  padding: 0;
+}
  
+.about-me p {
+	font-family: 'Bitter';
+}
+
+.contact-me p{
+	font-family: 'Bitter';
+	text-align: center;
+}
 .popup-close {
     width:30px;
     height:30px;

@@ -21,14 +21,28 @@
           <span class="mdl-layout-title"><h3 class="navbar-title">Sihong Huang</h3></span>
           <div class="mdl-layout-spacer"></div>
           <nav class="mdl-navigation mdl-layout--large-screen-only features">
-            <span><a class="navbar-link" href="#">Resume</a></span>
-          </nav>
-          <nav class="mdl-navigation mdl-layout--large-screen-only">
-            <span><a class="navbar-link" href="#">Projects</a></span>
-          </nav>
-          <nav class="mdl-navigation mdl-layout--large-screen-only">
             <div data-popup-open="popup-1">
-              <a class="navbar-link"  href="#">About Me</a>
+              <a class="navbar-link" href="#">Skills</a>
+            </div>
+          </nav>
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+	 					<div data-popup-open="popup-2">
+              <a class="navbar-link" href="#">Projects</a>
+            </div>
+          </nav>
+          <nav class="mdl-navigation mdl-layout--large-screen-only features">
+            <div data-popup-open="popup-3">
+              <a class="navbar-link" href="#">Resume</a>
+            </div>
+          </nav>
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <div data-popup-open="popup-4">
+              <a class="navbar-link"  href="#">About</a>
+            </div>
+          </nav>
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <div data-popup-open="popup-5">
+              <a class="navbar-link"  href="#">Contact</a>
             </div>
           </nav>
         </div>
@@ -37,9 +51,11 @@
         <span class="mdl-layout-title"><h4 class="drawer-title">Sihong Huang</h4></span>
         <nav class="mdl-navigation">
           <div class="drawer-separator"></div>
-          <span class="mdl-navigation__link drawer_heading"><a class="drawer-link" href="#">Resume</a></span>
-          <span class="mdl-navigation__link drawer_heading"><a class="drawer-link" href="#">Projects</a></span>
-          <span class="mdl-navigation__link drawer_heading"><a class="drawer-link" href="#">About Me</a></span>
+          <span data-popup-open="popup-1" class="mdl-navigation__link drawer_heading"><a class="drawer-link" href="#">Skills</a></span>
+          <span data-popup-open="popup-2" class="mdl-navigation__link drawer_heading"><a class="drawer-link" href="#">Projects</a></span>
+          <span data-popup-open="popup-3" class="mdl-navigation__link drawer_heading"><a class="drawer-link" href="#">Resume</a></span>
+          <span data-popup-open="popup-4"class="mdl-navigation__link drawer_heading"><a class="drawer-link" href="#">About</a></span>
+          <span data-popup-open="popup-5"class="mdl-navigation__link drawer_heading"><a class="drawer-link" href="#">Contact</a></span>
         </nav>
       </div>
       <main class="mdl-layout__content">
@@ -71,16 +87,36 @@
   	</div>
 	</div>
 
-	<div class="popup" data-popup="popup-1">
+
+	<div class="popup" data-popup="popup-3">
+
+	  <div class="popup-inner resume-div">
+	    <div class="resume"></div>
+
+	    <a class="popup-close" data-popup-close="popup-3" href="x">x</a>
+	  </div>
+	</div> 
+
+	<div class="popup" data-popup="popup-4">
 	  
 	  <div class="popup-inner">
 	    <div class="about-me">
-	      <p>Hello this is a test</p>
+	      <p>Hello there! My name is Sihong and I'm an aspiring web developer. I recently graduated from Dev Boot Camp where I focused on agile development, object oriented programming, and used git/github as version control. I have primarily been working with Ruby on Rails and Sinatra as my web application frameworks. I have hands on experience with Ruby, Javascript, jQuery, SQL, HTML5, and CSS. I built this website using Material Design Lite.</p>
       </div>
     
-	    <p><a data-popup-close="popup-1" href="#">Close</a></p>
-	    <a class="popup-close" data-popup-close="popup-1" href="x">x</a> 
+	    <a class="popup-close" data-popup-close="popup-4" href="x">x</a> 
 	  </div>
-	</div>    
+	</div>
+
+	<div class="popup" data-popup="popup-5">
+	  
+	  <div class="popup-inner">
+	    <div class="contact-me">
+	      <p>Shoot me an email! sihongspring2011@gmail.com</p>
+      </div>
+    
+	    <a class="popup-close" data-popup-close="popup-5" href="x">x</a> 
+	  </div>
+	</div>
 </body>
 </html>
