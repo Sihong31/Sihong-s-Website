@@ -1,0 +1,8 @@
+.mdl-layout__content {
+  background: url('../images/index_picture.jpg') center / cover;
+}
+
+.layout-transparent .mdl-layout__header,
+.layout-transparent .mdl-layout__drawer-button {
+  color: white;
+}
