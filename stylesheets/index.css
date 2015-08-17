@@ -151,28 +151,44 @@
 	color: #1D1E20;
 }
 
+.project-close:hover {
+	color: #E2AA2F;
+}
+
+.project-image{
+	border: 5px solid #1D1E20; 
+	float: left; margin: 15px; 
+	-webkit-transition: margin 0.5s ease-out; 
+	-moz-transition: margin 0.5s ease-out; 
+	-o-transition: margin 0.5s ease-out; 
+} 
+
+.project-image:hover { 
+  margin: 2px;
+}
+
 #kidpanion {
 	content: url('../images/kidpanion.png') center / cover;
-	height: 125px;
-	width: 150px;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 #stack-overflow {
 	content: url('../images/stackoverflowclone.png') center / cover;
-	height: 125px;
-	width: 150px;	
+	max-height: 100%;
+	max-width: 100%;	
 }
 
 #survey-panda {
 	content: url('../images/surveypanda.png') center / cover;
-	height: 125px;
-	width: 150px;		
+	max-height: 100%;
+	max-width: 100%;		
 }
 
 #flashcards {
 	content: url('../images/flashcards.png') center / cover;
-	height: 125px;
-	width: 150px;		
+	max-height: 100%;
+	max-width: 100%;		
 }
 
 .resume-div {
