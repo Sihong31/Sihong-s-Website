@@ -20,6 +20,10 @@
 	font-size: 20px;
 }
 
+.navbar-link:hover {
+	color: #E2AA2F;
+}
+
 .material-icons {
 	color: #D9D7DC;
 }
