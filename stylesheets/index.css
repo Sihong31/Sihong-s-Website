@@ -83,6 +83,19 @@
     background:#fff;
 }
 
+#skills-1 {
+	float: left;
+	margin-left: 20%;
+}
+
+#skills-2 {
+	float: right;
+	margin-right: 20%;
+}
+
+.skill {
+	
+}
 
 .resume-div {
   padding: 0;
