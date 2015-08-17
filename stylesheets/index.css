@@ -14,6 +14,13 @@
   color: #D9D7DC;
 }
 
+#slogan {
+  margin-top: -35px;
+  font-size: 12px;
+  font-family: 'Bitter';
+  color: #D9D7DC;
+}
+
 .drawer-title {
   font-family: 'Bitter';	
 }
