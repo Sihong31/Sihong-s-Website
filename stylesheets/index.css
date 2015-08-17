@@ -129,8 +129,14 @@
 
 #kidpanion {
 	content: url('../images/kidpanion.png') center / cover;
-	height: 150px;
+	height: 125px;
 	width: 150px;
+}
+
+#stack-overflow {
+	content: url('../images/stackoverflowclone.png') center / cover;
+	height: 125px;
+	width: 150px;	
 }
 
 .resume-div {
