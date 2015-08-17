@@ -122,7 +122,23 @@
 	color: #E2AA2F;
 }
 
+.projects-list {
+	height: 80%;
+	overflow: auto;
+
+}
+
+.project {
+	display: inline-block;
+	margin: 10px;
+}
+
 .project a {
+	text-decoration: none;
+	color: #1D1E20;
+}
+
+.project-close {
 	text-decoration: none;
 	color: #1D1E20;
 }
@@ -137,6 +153,18 @@
 	content: url('../images/stackoverflowclone.png') center / cover;
 	height: 125px;
 	width: 150px;	
+}
+
+#survey-panda {
+	content: url('../images/surveypanda.png') center / cover;
+	height: 125px;
+	width: 150px;		
+}
+
+#flashcards {
+	content: url('../images/flashcards.png') center / cover;
+	height: 125px;
+	width: 150px;		
 }
 
 .resume-div {
