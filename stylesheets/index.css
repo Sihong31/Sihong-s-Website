@@ -181,6 +181,18 @@
 	max-width: 100%;
 }
 
+#south-park {
+	content: url('../images/southpark.png') center / cover;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#play-racer {
+  float: right;
+  font-family: 'Bitter';
+  margin-right: 10%;
+}
+
 #stack-overflow {
 	content: url('../images/stackoverflowclone.png') center / cover;
 	max-height: 100%;
