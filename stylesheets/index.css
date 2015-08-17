@@ -151,10 +151,6 @@
 	color: #1D1E20;
 }
 
-.project-close:hover {
-	color: #E2AA2F;
-}
-
 .project-image{
 	border: 5px solid #1D1E20; 
 	float: left; margin: 15px; 
@@ -165,6 +161,18 @@
 
 .project-image:hover { 
   margin: 2px;
+}
+
+.mdl-button {
+	float: right;
+}
+
+.mdl-button a {
+	font-family: 'Bitter';
+}
+
+.mdl-button:hover {
+	background-color: #E2AA2F;
 }
 
 #kidpanion {
