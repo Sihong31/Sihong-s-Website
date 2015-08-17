@@ -122,6 +122,17 @@
 	color: #E2AA2F;
 }
 
+.project a {
+	text-decoration: none;
+	color: #1D1E20;
+}
+
+#kidpanion {
+	content: url('../images/kidpanion.png') center / cover;
+	height: 150px;
+	width: 150px;
+}
+
 .resume-div {
   padding: 0;
 }
