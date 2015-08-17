@@ -7,7 +7,7 @@ $(document).on('ready', function(){
 
   $('[data-popup-close]').on('click', function(e)  {
     var targeted_popup_class = $(this).attr('data-popup-close');
-    $('[data-popup="' + targeted_popup_class + '"]').slideUp(800);
+    $('[data-popup="' + targeted_popup_class + '"]').slideUp(500);
       e.preventDefault();
   });
 })

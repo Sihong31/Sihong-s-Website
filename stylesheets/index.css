@@ -85,16 +85,29 @@
 
 #skills-1 {
 	float: left;
-	margin-left: 20%;
+	margin-left: 15%;
 }
 
 #skills-2 {
 	float: right;
-	margin-right: 20%;
+	margin-right: 15%;
 }
 
 .skill {
-	
+  margin: auto;
+  height: 10em;
+  width: 100%;
+}
+
+.skill h5 {
+	font-family: 'Bitter';
+	color: #1D1E20;
+}
+
+.skill li {
+	list-style-type: none;
+	font-family: 'Bitter';
+	color: #E2AA2F;
 }
 
 .resume-div {
