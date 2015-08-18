@@ -204,6 +204,13 @@
 	max-width: 100%;
 }
 
+
+#github {
+  float: right;
+  font-family: 'Bitter';
+  margin-right: 3%;
+}
+
 #play-racer {
   float: right;
   font-family: 'Bitter';
