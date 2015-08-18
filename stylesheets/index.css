@@ -176,9 +176,9 @@
 	-o-transition: margin 0.5s ease-out; 
 } 
 
-.project-image:hover { 
+/*.project-image:hover { 
   margin: 2px;
-}
+}*/
 
 .mdl-button {
 	float: right;
