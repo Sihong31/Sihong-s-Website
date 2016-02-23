@@ -192,6 +192,10 @@
 	background-color: #E2AA2F;
 }
 
+.project-image img {
+	width: 100%;
+}
+
 #kidpanion {
 	content: url('../images/kidpanion.png') center / cover;
 	max-height: 100%;
@@ -239,11 +243,8 @@
   padding: 0;
 }
 
-.resume {
-	content: url(../images/resume.png);
-	max-width: 100%;
-	margin: 0 auto;
-  padding: 0;
+.resume img {
+	width: 100%;
 }
  
 .about-me p {
