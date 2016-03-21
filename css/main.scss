@@ -1,0 +1,158 @@
+html, body {
+	font-family: Arial, Verdana, Helvetica;
+	height: 100%;
+	margin: 0;
+  padding: 0;
+}
+
+.main-body-container {
+	background: url("../images/home.png");
+  overflow: auto;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+	height: 100%;
+}
+
+@font-face { 
+	font-family: lego-brix; src: url(../lego-brix.ttf);
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #d9d7dc;
+    background-color: none;
+}
+
+.navbar-default {
+	background: #0236ea;
+	height: 64px;
+	border: none;
+  border-radius: 0;
+	.navbar-brand {
+		color: #d9d7dc;
+	}
+	.link-style {
+		font-size: 22px;
+	}
+	.brand-link {
+		font-family: 'lego-brix', Arial, Verdana, Helvetica;
+		font-size: 24px;
+		margin-top: 5px;
+	}
+	.brand-link:hover, .brand-link:visited {
+		color: #d9d7dc;
+	}
+	.motto {
+		color: #d9d7dc;
+		margin-top: 40px;
+    position: absolute;
+	}
+	.link-style:hover {
+		color: #d9d7dc;
+	}
+	.navbar-nav>li>a {
+		color: #d9d7dc;
+	}
+	.navbar-nav {
+		.link-style:hover {
+			color: #d9d7dc;
+		}
+	}
+}
+
+.close {
+	position: relative;
+	z-index: 1;
+}
+a.button {
+	color: #1d1e20;
+	display: block;
+	text-decoration: none;
+	margin-top: 5px;
+	padding: 5px;
+  width: 60px;
+  border-radius: 2px;
+  text-align: center;
+  float: right;
+}
+
+a.button:visited {
+	color: #1d1e20;
+}
+
+a.button:hover {
+	background: #e2aa2f;
+}
+
+/*MODALS*/
+.modal-title {
+	text-align: center;
+}
+
+.modal-header {
+	padding-bottom: 0;
+	border: none;
+	.close {
+		font-size: 25px;
+		opacity: 0.5;
+		color: #e2aa2f;
+	}
+	h3 {
+		color: #1d1e20;
+	}
+}
+
+.modal-body {
+	padding-top: 0;
+}
+
+#skills { 
+	.content-block {
+		h4 { 
+			color: #1d1e20;
+		}
+		p {
+			color: #e2aa2f;
+		}
+	}
+}
+
+/*FOOTER*/
+.footer {
+	height: 50px;
+	background: #1d1e20;
+	i {
+		font-size: 24px;
+    color: #e2aa2f;
+	}
+}
+
+/*** MOBILE ***/
+@media (max-width: 767px) {
+	.navbar-default .navbar-toggle {
+	    border-color: none;
+	    border-width: 0;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: #1d1e20;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+    background-color: #e2aa2f;
+	}
+	.navbar-default .motto {
+		margin-left: 15px;
+	}
+	.category-links {
+		color: #1d1e20!important;
+	}
+	.mobile-nav-wrapper {
+		margin-top: 5px;
+		background: #e2aa2f;
+    border-top: 2px solid #e2aa2f!important;
+  }
+}
