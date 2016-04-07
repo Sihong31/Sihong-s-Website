@@ -39,6 +39,9 @@ html, body {
 	.link-style {
 		font-size: 22px;
 	}
+	.link-style:focus {
+		outline: 0
+	}
 	.brand-link {
 		font-family: 'lego-brix', Arial, Verdana, Helvetica;
 		font-size: 24px;

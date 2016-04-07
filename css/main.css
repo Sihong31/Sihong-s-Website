@@ -32,6 +32,8 @@ html, body {
     color: #d9d7dc; }
   .navbar-default .link-style {
     font-size: 22px; }
+  .navbar-default .link-style:focus {
+    outline: 0; }
   .navbar-default .brand-link {
     font-family: 'lego-brix', Arial, Verdana, Helvetica;
     font-size: 24px;
